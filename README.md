@@ -1,6 +1,6 @@
 # php2shell-plain
 
-The smallest Rust model of one PHP2Shell bug, verified with [Verus](https://github.com/verus-lang/verus). This version **does not chase the bug**. It is the same code as [php2shell-chase](https://github.com/avrevic/php2shell-chase). Each function has the spec a careful port would give it, which says what that one function does. No spec says anything that spans two requests.
+The smallest Rust model of one PHP2Shell bug, verified with [Verus](https://github.com/verus-lang/verus). This version **does not chase the bug**. It is the same code as [php2shell-chase](https://github.com/avrevic/php2shell-chase). Lean 4 versions: [php2shell-lean-chase](https://github.com/avrevic/php2shell-lean-chase), [php2shell-lean-plain](https://github.com/avrevic/php2shell-lean-plain). Each function has the spec a careful port would give it, which says what that one function does. No spec says anything that spans two requests.
 
 ## Result
 
